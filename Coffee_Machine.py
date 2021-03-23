@@ -1,10 +1,11 @@
 class Machine:
-    money = 550
-    water = 400
-    milk = 540
-    beans = 120
-    cups = 9
-    working = True
+    def __init__(self):
+        self.money = 550
+        self.water = 400
+        self.milk = 540
+        self.beans = 120
+        self.cups = 9
+        self.working = True
 
     def remaining(self):
         print('The coffee machine has:')
